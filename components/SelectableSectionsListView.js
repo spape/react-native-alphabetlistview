@@ -250,6 +250,7 @@ export default class SelectableSectionsListView extends Component {
       renderFooter,
       renderHeader,
       renderRow: this.renderRow,
+      enableEmptySections: false,
       renderSectionHeader
     });
 
